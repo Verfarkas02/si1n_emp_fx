@@ -8,5 +8,8 @@ public class MainView extends VBox{
         this.tablePanel =new TablePanel();
         this.getChildren().add(this.tablePanel);
     }
+    public TablePanel getTablePanel() {
+        return tablePanel;
+    }
     
 }
